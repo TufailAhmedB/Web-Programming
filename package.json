@@ -1,0 +1,19 @@
+{
+  "name": "smart-queue-college-office",
+  "version": "5.0.0",
+  "description": "Student-centred college queue system with per-service queues, walk-in support, and service availability controls using Express and SQLite",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --check server.js && node --check public/app.js && node --check public/admin.js"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "express": "4.21.2",
+    "express-session": "1.18.2",
+    "sqlite3": "5.1.7"
+  }
+}

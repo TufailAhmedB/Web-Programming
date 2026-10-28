@@ -1,0 +1,6 @@
+node_modules/
+queue.db
+queue.db-shm
+queue.db-wal
+npm-debug.log*
+.DS_Store
